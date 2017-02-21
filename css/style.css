@@ -47,14 +47,48 @@ table {
 	border-spacing: 0;
 }
 
+=======
+/*Header*/
+
 .logo {
-	position: relative;
-	margin:auto;
-	padding-left: 15px;
-	padding-top: 15px;
-	padding-bottom: 15px;
+  position: relative;
+  margin:auto;
+  padding-left: 15px;
+ 	padding-top: 15px;
+ 	padding-bottom: 15px;
+ }
+ 
+ .header {
+  	background-color: grey;
+  }
+
+========
+
+
+
+========
+/*Footer
+*/
+
+.footer{
+  background-color:  #3d3d29;
 }
 
-.header {
-	background-color: grey;
+.copy-right {
+  font-family: 'Codystar',cursive, sans-serif;
+  font-size: 25px;
+  float: left;
 }
+
+
+.nav-bar {
+  float: right;
+  font-family: 'Cutive Mono';
+}
+
+.social-media {
+  display: inline;
+  margin-right: 70px;
+}
+========
+
