@@ -46,6 +46,15 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.footer {
+
+.logo {
+	position: relative;
+	margin:auto;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.header {
 	background-color: grey;
 }
