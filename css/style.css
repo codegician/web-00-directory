@@ -53,66 +53,78 @@ table {
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 .student-container {
-	background: #000;
+	background: #FFF;
 	width: 100%;
-	height: 80%;
+	height: 60%;
 	margin: 0;
-	font: 14px "Helvetice Neue", Helvetica, Arial, sans-serif;
-
+	font-family: "Helvetice Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+  padding: 10% 0;
 }
 
-.first-row {
+.profile {
 	display: inline;
-	width: 20%;
+	width: 21%;
 	margin: 2%;
 	float: left;
-	text-align: center;
 }
 
-.second-row {
-	display: inline;
-	width: 20%;
-	margin: 2%;
-	float: left;
-	text-align: center;
+.footer {
+	clear: both;
 }
-
-.third-row {
-	display: inline;
-	width: 20%;
-	margin: 2%;
-	float: left;
-	text-align: center;
-}
-
-/*.2nd-row{
-	width: 100%;
-	height:30%;
-}
-
-.3rd-row{
-	width: 100%;
-	height:30%;
-}*/
 
 img {
-	width: 100px;
-	height: 100px;
-	border-radius: 50px;
-	background: #d3d3d3
+	margin: 10px 0;
+	border-radius: 75px;
+	/*border-style: solid;    use to align hover     */
+	/*border-width: thin;     use to align hover      */
+	background: #d3d3d3;
+  box-shadow: inset rgba(0,0,0,.9);
 }
 
-
-
-h5 {
-	/*display: inline;*/
-	/*width: 16px;*/
-	/*height: 14px;*/
-	/*margin: 0;*/
+.overlay {
+	position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 54px;
+  right: 0;
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+  opacity: 0;
+	transition: .7s ease;
+	background-color: #8d8989;
 }
+
+.eclipse {
+	position: relative;
+}
+
+.eclipse:hover .overlay {
+	opacity: 1;
+}
+.video-text {
+	 font-family: "Helvetice Neue", Helvetica, Arial, sans-serif;
+   color: #FFF;
+   font-size:14px;
+	 line-height: 20px;
+	 font-weight: 500;
+	 position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.icon {
+	backface-visibility: hidden;
+}
+
+a {
+	color: inherit;
+	outline: none;
+	text-decoration: none;
+}
+
 p {
-	/*display: inline;*/
-	/*width: 16px;*/
-	/*height: 14px;*/
-	/*margin: 0;*/
+	margin: 8px 0;
+  font-size: 12px;
 }
