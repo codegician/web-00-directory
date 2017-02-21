@@ -78,8 +78,6 @@ img {
 	border-radius: 75px;
 	/*border-style: solid;    use to align hover     */
 	/*border-width: thin;     use to align hover      */
-	background: #d3d3d3;
-  box-shadow: inset rgba(0,0,0,.9);
 }
 
 .overlay {
@@ -114,8 +112,8 @@ img {
    left: 50%;
    transform: translate(-50%, -50%);
 }
-.icon {
-	backface-visibility: hidden;
+.press-play {
+	border-radius: 0;
 }
 
 a {
