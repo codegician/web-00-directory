@@ -47,7 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                           BODY
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -67,10 +66,6 @@ table {
 	width: 21%;
 	margin: 2%;
 	float: left;
-}
-
-.footer {
-	clear: both;
 }
 
 img {
@@ -126,3 +121,59 @@ p {
 	margin: 8px 0;
   font-size: 12px;
 }
+=======
+=======
+/*Header*/
+
+.logo {
+  position: relative;
+  margin:auto;
+  padding-left: 15px;
+ 	padding-top: 15px;
+ 	padding-bottom: 15px;
+ }
+ 
+ .header {
+  	background-color: grey;
+  }
+
+========
+
+
+
+========
+/*Footer
+*/
+
+.footer {
+  background-color: grey;
+}
+
+.copy-right {
+  font-family: 'Codystar',cursive, sans-serif;
+  font-size: 15px;
+  color: white;
+  float: left;
+}
+
+
+.nav-bar {
+  float: right;
+  font-family: 'Cutive Mono';
+}
+
+.footer {
+  background-color: grey;
+  width: 100%;
+  display: inline-block;
+  float: right;
+  clear: both;
+}
+
+.social-link {
+  display: inline-block;
+  width: 10%;
+}
+========
+
+
