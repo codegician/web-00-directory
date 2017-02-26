@@ -47,20 +47,10 @@ table {
 	border-spacing: 0;
 }
 
-<<<<<<< HEAD
+
 /*==================================
              Header
 ===================================*/
-
-/*.logo {
-  position: relative;
-  margin: auto;
-  padding-left: 15px;
- 	padding-top: 15px;
- 	padding-bottom: 15px;
- }*/
-
-
 
 .left-column {
 	width:15%;
@@ -87,12 +77,6 @@ table {
 	top: 47px;
 	left: 0;
 	border-radius: 0;
-/*
-	-webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);*/
 }
 #vertical {
 	  transform: rotate(90deg);
@@ -108,17 +92,11 @@ table {
 .social-link-left {
 	height: 14%;
 	width: 14%;
-	margin: 0;
+	margin: 10%;
 	float: left;
 	display: inline-block;
 }
 
-/*li:nth-child(6){
-	height: 14%;
-	width: 14%;
-	float: left;
-	display: block;
-}*/
 .sidenav{
 	height: 100%;
 	width: 0;
@@ -173,8 +151,7 @@ table {
 	clear: both;
 	width: 100%;
 }
-=======
->>>>>>> bddde456a93258aa56bff2ec742faa4a94d1ce7e
+
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                           BODY
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -199,10 +176,7 @@ table {
 	float: left;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> bddde456a93258aa56bff2ec742faa4a94d1ce7e
 img {
 	margin: 10px 0;
 	border-radius: 75px;
@@ -256,36 +230,12 @@ p {
 	margin: 8px 0;
   font-size: 12px;
 }
-<<<<<<< HEAD
-=======
-=======
-=======
-/*Header*/
-
-.logo {
-  position: relative;
-  margin:auto;
-  padding-left: 15px;
- 	padding-top: 15px;
- 	padding-bottom: 15px;
- }
- 
- .header {
-  	background-color: grey;
-  }
-
-========
->>>>>>> bddde456a93258aa56bff2ec742faa4a94d1ce7e
-
 
 /*=================================
 							Footer
 ===================================*/
 
-
-
-
-.nav-bar {
+/*.nav-bar {
   float: right;
   font-family: 'Cutive Mono';
 }
@@ -295,20 +245,10 @@ p {
   width: 100%;
   display: inline-block;
   float: right;
-<<<<<<< HEAD
-	clear: both;
-=======
-  clear: both;
->>>>>>> bddde456a93258aa56bff2ec742faa4a94d1ce7e
+
 }
 
 .social-link {
   display: inline-block;
   width: 10%;
-}
-<<<<<<< HEAD
-=======
-========
-
-
->>>>>>> bddde456a93258aa56bff2ec742faa4a94d1ce7e
+}*/
