@@ -47,6 +47,7 @@ table {
 	border-spacing: 0;
 }
 
+<<<<<<< HEAD
 /*==================================
              Header
 ===================================*/
@@ -172,6 +173,8 @@ table {
 	clear: both;
 	width: 100%;
 }
+=======
+>>>>>>> bddde456a93258aa56bff2ec742faa4a94d1ce7e
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                           BODY
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -196,7 +199,10 @@ table {
 	float: left;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> bddde456a93258aa56bff2ec742faa4a94d1ce7e
 img {
 	margin: 10px 0;
 	border-radius: 75px;
@@ -250,6 +256,26 @@ p {
 	margin: 8px 0;
   font-size: 12px;
 }
+<<<<<<< HEAD
+=======
+=======
+=======
+/*Header*/
+
+.logo {
+  position: relative;
+  margin:auto;
+  padding-left: 15px;
+ 	padding-top: 15px;
+ 	padding-bottom: 15px;
+ }
+ 
+ .header {
+  	background-color: grey;
+  }
+
+========
+>>>>>>> bddde456a93258aa56bff2ec742faa4a94d1ce7e
 
 
 /*=================================
@@ -269,10 +295,20 @@ p {
   width: 100%;
   display: inline-block;
   float: right;
+<<<<<<< HEAD
 	clear: both;
+=======
+  clear: both;
+>>>>>>> bddde456a93258aa56bff2ec742faa4a94d1ce7e
 }
 
 .social-link {
   display: inline-block;
   width: 10%;
 }
+<<<<<<< HEAD
+=======
+========
+
+
+>>>>>>> bddde456a93258aa56bff2ec742faa4a94d1ce7e
