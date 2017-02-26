@@ -5,18 +5,32 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
        <link href="https://fonts.googleapis.com/css?family=Codystar" rel="stylesheet">
        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:900|Cutive+Mono" rel="stylesheet">
+       <script type="text/javascript" src="sidenav.js"></script>
        <title>FGASEA Student Profiles</title>
     </head>
     <body>
-        <div class="container">
-            <div class="header">
-              <header class="logo">
-                <img src="images/logo.png">
-              </header>
-            <!--closes logo header-->
-            </div>
-            
-            <div class="student-container">
+        <div class="container" >
+            <div class="left-column">
+              <span onclick="openNav()"><img id="image-down" src="images/logo-white-icon.png" style="width:106px;height:127px"></span>
+              <h1 id="vertical"><span onclick="openNav()">FLOODGATE</span></h1>
+              <div class="sidenav" id="mysidenav">
+                 <ul>
+                  <li href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</li>
+                  <img id="nav-logo" src="images/logo-white.png" style="width:200px;height:63px">
+                  <li class="link-left" href="">Home</li>
+                  <li class="link-left" href="">Founders</li>
+                  <li class="link-left" href="">About</li>
+                  <li class="link-left" href="">Contact</li>
+                  <li class="social-link-left spacing" href=""><img src= "images/icon-1.svg"/></li>
+                  <li class="social-link-left spacing" href=""><img src= "images/icon-2.svg"/></li>
+                  <li class="social-link-left spacing" href=""><img src= "images/icon-3.svg"/></li>
+                  <li class="social-link-left spacing" href=""><img src= "images/icon-4.svg"/></li>
+                </ul>
+                  <p id="copy-right spacing"><br>Made by FGA Seattle &#9400; 2017</p>
+              </div><!--closes sidenav -->
+            </div>  <!--closes left-column-->
+
+            <div class="student-container" id="main">
       <!-- row one. missing links to student github accounts (resume),
       profile pictures, video intros and their names. overlay and video text needs to be tweaked mo -->
                        <div class="profile eclipse">
@@ -167,7 +181,7 @@
                        </div>
             </div> <!-- closes student-container -->
 
-            <div class="footer">
+            <!-- <div class="footer">
               <div class="copy-right">
                 <p><br>Made by FGA Seattle &#9400; 2017</p>
               </div>
@@ -179,10 +193,9 @@
                   <li class="social-link"><img src= "images/icon-3.svg"/></li>
                   <li class="social-link"><img src= "images/icon-4.svg"/></li>
                 </ul>
-              </div>
-              <!--closes nav-bar-->
-            </div>
-        </div>
-        <!--closes container div-->
+              </div>-->
+
+            </div>   <!--closes nav-bar-->
+        </div><!--closes container div-->
     </body>
   </html>
